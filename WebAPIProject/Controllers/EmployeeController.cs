@@ -13,7 +13,7 @@ namespace WebAPIProject.Controllers
 {
     public class EmployeeController : ApiController
     {
-    public IHttpActionResult getData()
+    public IHttpActionResult getDatas()
     {
       List<Employee> employees = new List<Employee>();
       string conctn = ConfigurationManager.ConnectionStrings["TestConnection"].ConnectionString;
